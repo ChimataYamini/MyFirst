@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+    <body>
+
+        <form>
+
+            <h3> Registration Form</h3>
+
+            <div>
+                 <label for="uname"> Username: </label>
+                 <input type="text" placeholder="Name" id="uname" required> 
+            </div>
+<br>
+            <div>
+                 <label for="email">Email Id:  </label>
+                 <input type="email" name="email_id" placeholder="Email" id="email">  <br><br>
+            </div>
+
+            <div>
+            <label for="AGE">Age:</label>
+            <input type="number" placeholder="Age" id="AGE" min="1">            <br><br>
+            </div>
+
+            <div>
+            <label for="password"> Enter Password: </label>
+            <input type="password" placeholder="password" maxlength="6"> <br><br>
+            </div>
+
+            <div>
+            <label for="gender"> Gender: </label>
+
+            <label for="female"> Female </label>
+            <input type="radio" name="myGender" id="female"> 
+
+            <label> Male </label>
+            <input type="radio" name="myGender">        
+            </div>
+<br> 
+            <div>
+                <label for="telephone">Telephone: </label>
+                <input type="tel" name="tele" id="telephone" placeholder="123-456-7890">
+            </div>
+<br>           
+            <div>           
+            <label for="Subject"> Select Subject: </label> <br>
+                    <input type="checkbox"> Deep learning <br>
+                    <input type="checkbox"> Cyber Security <br>
+                    <input type="checkbox"> EVS <br>
+            </div>
+<br>
+            File:   <input type=""file" name="upload" id="fileselect" placeholder="choose file">  <br><br>    
+            
+            Time:   <input type="time">  <br><br>
+            
+            <div>
+            <label for="dob"> Date of Birth: </label>
+            <input type="date" name="date" id="dob">  <br><br>
+            </div>
+
+            <div>
+                <label for="payment"> Payment: </label>
+                <select id="payment">
+                <option> visa </option>
+                <option> giftcard </option>
+                </select>
+            </div>
+<br>
+
+            <div>
+                <label for="nation"> Nationality: </label>
+                <select name="myNation" id="nation">
+                    <option> India </option>
+                    <option> USA </option>
+                </select>
+                <br><br>
+            </div>
+            <div>
+                Write about yourself: <br><textarea name="mytext"> </textarea>
+            </div>
+            <br>
+            <input type="reset">
+            <input type="submit" value="Submit">
+
+        </form>
+    </body>
+</html>
